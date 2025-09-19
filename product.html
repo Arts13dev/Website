@@ -1,0 +1,290 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Work+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>SmartTech & Beauty Products</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Work Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f4f0f0] px-10 py-3">
+          <div class="flex items-center gap-8">
+            <div class="flex items-center gap-4 text-[#181111]">
+              <div class="size-4">
+                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+              </div>
+              <h2 class="text-[#181111] text-lg font-bold leading-tight tracking-[-0.015em]">SmartTech & Beauty Store</h2>
+            </div>
+            <div class="flex items-center gap-9">
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="home.html">Home</a>
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="product.html?category=Smartphones">Smartphones</a>
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="product.html?category=Weaves">Weaves</a>
+              <a class="text-[#181111] text-sm font-medium leading-normal" href="product.html?category=Laptops">Laptops</a>
+            </div>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+                <div
+                  class="text-[#886364] flex border-none bg-[#f4f0f0] items-center justify-center pl-4 rounded-l-lg border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#181111] focus:outline-0 focus:ring-0 border-none bg-[#f4f0f0] focus:border-none h-full placeholder:text-[#886364] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f4f0f0] text-[#181111] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#181111]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f4f0f0] text-[#181111] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#181111]" data-icon="User" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#f4f0f0] text-[#181111] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#181111]" data-icon="ShoppingCart" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M222.14,58.87A8,8,0,0,0,216,56H54.68L49.79,29.14A16,16,0,0,0,34.05,16H16a8,8,0,0,0,0,16h18L59.56,172.29a24,24,0,0,0,5.33,11.27,28,28,0,1,0,44.4,8.44h45.42A27.75,27.75,0,0,0,152,204a28,28,0,1,0,28-28H83.17a8,8,0,0,1-7.87-6.57L72.13,152h116a24,24,0,0,0,23.61-19.71l12.16-66.86A8,8,0,0,0,222.14,58.87ZM96,204a12,12,0,1,1-12-12A12,12,0,0,1,96,204Zm96,0a12,12,0,1,1-12-12A12,12,0,0,1,192,204Zm4-74.57A8,8,0,0,1,188.1,136H69.22L57.59,72H206.41Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap gap-2 p-4">
+              <span id="homeLink" class="text-[#181111] text-base font-medium leading-normal cursor-pointer" onclick="window.location.href='home.html'">Home</span>
+              <span class="text-[#181111] text-base font-medium leading-normal">/</span>
+              <span id="breadcrumbCategory" class="text-[#886364] text-base font-medium leading-normal"onclick="window.location.href='product.html'">Products</span>
+              <span id="breadcrumbProductSeparator" class="text-[#181111] text-base font-medium leading-normal hidden">/</span>
+              <span id="breadcrumbProductName" class="text-[#886364] text-base font-medium leading-normal hidden"></span>
+            </div>
+
+            <!-- Product Listing View -->
+            <div id="productListingView">
+              <h2 class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">All Products</h2>
+              <!-- This is where all products will be listed dynamically -->
+              <div id="productsGrid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+                <!-- Products from DB will be injected here by JavaScript -->
+              </div>
+            </div>
+
+            <!-- Single Product Details View (Initially Hidden) -->
+            <div id="productDetailView" class="hidden">
+              <!-- Product details will be injected here by JavaScript -->
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <div class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#886364] text-base font-normal leading-normal min-w-40" href="About.html">About Us</a>
+                <a class="text-[#886364] text-base font-normal leading-normal min-w-40" href="contact.html">Contact</a>
+                <a class="text-[#886364] text-base font-normal leading-normal min-w-40" href="faq.html">FAQ</a>
+                <a class="text-[#886364] text-base font-normal leading-normal min-w-40" href="privacy-policy.html">Privacy Policy</a>
+              </div>
+              <div class="flex flex-wrap justify-center gap-4">
+                <a href="#">
+                  <div class="text-[#886364]" data-icon="TwitterLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#886364]" data-icon="InstagramLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#886364]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <p class="text-[#886364] text-base font-normal leading-normal">@2025 SmartTech & Beauty Store. All rights reserved.</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const productId = urlParams.get('productId');
+
+      if (productId) {
+        // If a product ID is in the URL, fetch and display that single product
+        displayProductDetails(productId);
+      } else {
+        // Otherwise, fetch and display all products
+        displayAllProducts();
+      }
+    });
+
+    // --- FUNCTION TO DISPLAY ALL PRODUCTS ---
+    function displayAllProducts() {
+      document.getElementById('productListingView').classList.remove('hidden');
+      document.getElementById('productDetailView').classList.add('hidden');
+      const productsGrid = document.getElementById('productsGrid');
+
+      fetch('products.php')
+        .then(response => response.json())
+        .then(data => {
+          if (data.success && data.products.length > 0) {
+            productsGrid.innerHTML = ''; // Clear existing content
+            data.products.forEach(product => {
+              productsGrid.innerHTML += `
+                <div class="flex flex-col gap-3 pb-3 border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow">
+                  <a href="?productId=${product.id}" class="cursor-pointer">
+                    <img src="${product.image || 'https://placehold.co/300x400/e8b4b7/333333?text=No+Image'}" alt="${product.name}" class="w-full h-64 object-cover rounded-lg mb-2">
+                    <h3 class="text-[#181111] text-base font-bold leading-normal">${product.name}</h3>
+                  </a>
+                  <p class="text-[#886364] text-sm font-normal leading-normal">R ${product.price}</p>
+                  <button class="add-to-cart-btn mt-auto w-full h-10 px-4 bg-[#e92932] text-white text-sm font-bold rounded-lg hover:bg-red-700 transition-colors"
+                          data-product-id="${product.id}"
+                          data-product-name="${product.name}"
+                          data-product-price="${product.price}">
+                    Add to Cart
+                  </button>
+                </div>
+              `;
+            });
+            // Re-attach event listeners for the new buttons
+            attachAddToCartListeners();
+          } else {
+            productsGrid.innerHTML = '<p>No products found.</p>';
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching products:', error);
+          productsGrid.innerHTML = '<p>Error loading products. Please check the connection and try again.</p>';
+        });
+    }
+
+    // --- FUNCTION TO DISPLAY A SINGLE PRODUCT'S DETAILS ---
+    function displayProductDetails(productId) {
+      document.getElementById('productListingView').classList.add('hidden');
+      document.getElementById('productDetailView').classList.remove('hidden');
+      const detailView = document.getElementById('productDetailView');
+
+      fetch(`products.php?id=${productId}`)
+        .then(response => response.json())
+        .then(data => {
+          if (data.success && data.product) {
+            const product = data.product;
+            detailView.innerHTML = `
+              <div class="flex flex-col md:flex-row gap-8 p-4">
+                <div class="md:w-1/2">
+                  <img src="${product.image || 'https://placehold.co/600x800/e8b4b7/333333?text=No+Image'}" alt="${product.name}" class="w-full rounded-lg shadow-lg">
+                </div>
+                <div class="md:w-1/2">
+                  <h1 class="text-3xl font-bold text-[#181111] mb-2">${product.name}</h1>
+                  <p class="text-2xl text-[#e92932] font-bold mb-4">R ${product.price}</p>
+                  <p class="text-[#181111] text-base leading-relaxed mb-6">${product.description || 'No description available.'}</p>
+                  <p class="text-gray-600 mb-4">Stock: ${product.stock}</p>
+                  <button class="add-to-cart-btn w-full h-12 px-6 bg-[#e92932] text-white text-lg font-bold rounded-lg hover:bg-red-700 transition-colors"
+                          data-product-id="${product.id}"
+                          data-product-name="${product.name}"
+                          data-product-price="${product.price}">
+                    Add to Cart
+                  </button>
+                </div>
+              </div>
+            `;
+            // Re-attach event listener for the new button
+            attachAddToCartListeners();
+          } else {
+            detailView.innerHTML = '<p>Product not found.</p>';
+          }
+        })
+        .catch(error => {
+          console.error('Error fetching product details:', error);
+          detailView.innerHTML = '<p>Error loading product details. Please try again.</p>';
+        });
+    }
+
+    // --- CART FUNCTIONS ---
+    function addToCart(event) {
+      const button = event.currentTarget; // Use currentTarget
+      const product = {
+        id: button.dataset.productId,
+        name: button.dataset.productName,
+        price: parseFloat(button.dataset.productPrice)
+      };
+
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const existingProductIndex = cart.findIndex(item => item.id === product.id);
+
+      if (existingProductIndex > -1) {
+        cart[existingProductIndex].quantity++;
+      } else {
+        product.quantity = 1;
+        cart.push(product);
+      }
+
+      localStorage.setItem('cart', JSON.stringify(cart));
+      alert(`'${product.name}' has been added to your cart.`);
+    }
+
+    function attachAddToCartListeners() {
+      document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+        button.addEventListener('click', addToCart);
+      });
+    }
+  </script>
+</html>
